@@ -1,0 +1,16 @@
+body {
+  background-color: lightslategrey;
+}
+
+.classsss {
+  width: 300px;
+  font-size: 170%;
+}
+
+#h1 {
+  font-size: 300%;
+}
+
+#image {
+  position: relative;
+}

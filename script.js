@@ -13,7 +13,7 @@ function calculate () {
   inputB = parseInt(inputB)
   inputH = document.getElementById('input-h').value
   inputH = parseInt(inputH)
-  area = (inputA + inputB) / 2 * inputH
+  area = ((inputA + inputB) / 2) * inputH
   document.getElementById('input-a').disabled = false
   document.getElementById('input-b').disabled = false
   document.getElementById('input-h').disabled = false

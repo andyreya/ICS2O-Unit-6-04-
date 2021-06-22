@@ -8,32 +8,14 @@ document.getElementById('div').addEventListener('click', calculate)
 /* Once the function is activated, it will assign whatever number was typed into the input boxes to the variables and turn them into integers to work with. After that it will take the assigned values of those variables and run through the area of a trapezoid formula and assign the result to the 'area' variable. */
 function calculate () {
   inputA = document.getElementById('input-a').value
-  inputA = parseInt(inputA)
+  inputA = parseInt(input-a)
   inputB = document.getElementById('input-b').value
-  inputB = parseInt(inputB)
+  inputB = parseInt(input-b)
   inputH = document.getElementById('input-h').value
-  inputH = parseInt(inputH)
+  inputH = parseInt(input-h)
   area = (inputA + inputB) / 2 * inputH
   document.getElementById('input-a').disabled = false
   document.getElementById('input-b').disabled = false
   document.getElementById('input-h').disabled = false
   document.getElementById('area-result').innerHTML = area
-}
-if (inputA === 0) {
-  document.getElementById('input-a').innerHTML = 'Value cannot be 0'
-}
-if (inputA < 0) {
-  document.getElementById('inputA-a').innerHTML = 'Value cannot be a negative integer'
-}
-if (inputB === 0) {
-  document.getElementById('input-b').innerHTML = 'Value cannot be 0'
-}
-if (inputB < 0) {
-  document.getElementById('input-b').innerHTML = 'Value cannot be a negative integer'
-}
-if (inputH === 0) {
-  document.getElementById('input-h').innerHTML = 'Value cannot be 0'
-}
-if (inputH < 0) {
-  document.getElementById('input-h').innerHTML = 'Value cannot be a negative integer'
 }

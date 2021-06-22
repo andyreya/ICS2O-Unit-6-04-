@@ -8,13 +8,36 @@
   </head>
   <body>
     <h1 id="h1">TRAPEZOIDS</h1> 
+    <hr>
     <div class="classsss">
-    <p>In Euclidean geometry, a convex quadrilateral with at least one pair of parallel sides is referred to as a trapezium in English outside North America, but as a trapezoid in American and Canadian English.</p>
-    <br>
-    <p>FORMULA</p>
-    <p>((a + b)/2)*h</p>
+      <p>In Euclidean geometry, a convex quadrilateral with at least one pair of parallel sides is referred to as a trapezium in English outside North America, but as a trapezoid in American and Canadian English.</p>
+      <br>
+      <p>FORMULA</p>
+      <p>((a + b)/2)*h</p>
+      <p>Do not enter units in the value boxes</p>
     </div>
-    <img src="./images/trapezoid #1.png" alt="diagram of a trapezoid" id="image">
+    <div id="table">
+      <table class="input">
+        <tr>
+          <td>Insert base(a) :  </td>
+          <td><input type="text" onfocus="this.value=''" value="Enter Value" id="inputA" name="Value of a"></td>
+        </tr>
+        <tr>
+          <td>Insert base(b) :  </td>
+          <td><input type="text" onfocus="this.value=''" value="Enter Value" id="inputB" name="Value of b"></td>
+        </tr>
+        <tr>
+          <td>Insert height  :  </td>
+          <td><input type="text" onfocus="this.value=''" value="Enter Value" id="inputH" name="Value of h"></td>
+        </tr>
+      </div>
+    <img src="./images/trapezoid.jpg" id="image">
+    <div id="resultSection">
+      <p id="result">The area of this trapezoid is <span id="area-result"></span></p>
+    </div><br>
+    <div>
+        <button id="div">Calculate</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
